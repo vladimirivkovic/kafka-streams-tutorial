@@ -21,7 +21,7 @@ Dataset used for generating a stream of records can be found on [Kaggle](https:/
 ## Step 3 - Start Stream Processing App
 ```sh
 $ cd kafka-streams-examples
-$ mvn exec:java -Dexec.mainClass="com.example.kafka_streams_examples.App"
+$ mvn exec:java -Dexec.mainClass="com.example.kafka_streams_examples.<ExampleName>"
 ```
 
-[KaDeck Community Edition](https://www.xeotek.com/kadeck/free-community-edition/) is free GUI for monitoring Kafka topics and messages.
+[KaDeck Community Edition](https://www.xeotek.com/kadeck/free-community-edition/) is a free GUI tool for monitoring Kafka topics and messages.
