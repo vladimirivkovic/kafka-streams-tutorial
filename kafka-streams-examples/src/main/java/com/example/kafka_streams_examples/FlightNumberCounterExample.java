@@ -11,6 +11,9 @@ import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.KeyValueMapper;
 import org.apache.kafka.streams.kstream.Produced;
 
+import com.example.kafka_streams_examples.util.KafkaConstants;
+import com.example.kafka_streams_examples.util.KafkaStreamsUtil;
+
 public class FlightNumberCounterExample {
 	public static void main(String[] args) {
 		final Properties streamsConfiguration = KafkaStreamsUtil.getStreamsConfiguration("flight-number-counter");

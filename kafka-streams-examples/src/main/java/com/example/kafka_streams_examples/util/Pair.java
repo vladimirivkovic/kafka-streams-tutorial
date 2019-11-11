@@ -1,10 +1,10 @@
-package com.example.kafka_streams_examples;
+package com.example.kafka_streams_examples.util;
 
 public class Pair {
 	public Long cnt;
 	public Long sum;
 
-	Pair() {
+	public Pair() {
 		cnt = 0L;
 		sum = 0L;
 	}

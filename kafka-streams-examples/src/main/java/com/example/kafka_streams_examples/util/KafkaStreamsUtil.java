@@ -1,4 +1,4 @@
-package com.example.kafka_streams_examples;
+package com.example.kafka_streams_examples.util;
 
 import java.util.Properties;
 

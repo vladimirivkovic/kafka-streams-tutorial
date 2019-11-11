@@ -4,7 +4,7 @@ import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serializer;
 
-import com.example.kafka_streams_examples.Pair;
+import com.example.kafka_streams_examples.util.Pair;
 
 public class PairSerdes implements Serde<Pair> {
 

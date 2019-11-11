@@ -6,9 +6,10 @@ import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
 
-public class BranchByCraftExample {
-	private static final String SEPARATOR = "#";
+import com.example.kafka_streams_examples.util.KafkaConstants;
+import com.example.kafka_streams_examples.util.KafkaStreamsUtil;
 
+public class BranchByCraftExample {
 	public static void main(String[] args) {
 		final Properties streamsConfiguration = KafkaStreamsUtil.getStreamsConfiguration("branch-craft");
 

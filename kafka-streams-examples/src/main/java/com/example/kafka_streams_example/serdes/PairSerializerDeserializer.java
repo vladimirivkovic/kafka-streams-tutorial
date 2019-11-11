@@ -6,7 +6,7 @@ import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.kafka.common.serialization.Serializer;
 
-import com.example.kafka_streams_examples.Pair;
+import com.example.kafka_streams_examples.util.Pair;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class PairSerializerDeserializer implements Serializer<Pair>, Deserializer<Pair> {

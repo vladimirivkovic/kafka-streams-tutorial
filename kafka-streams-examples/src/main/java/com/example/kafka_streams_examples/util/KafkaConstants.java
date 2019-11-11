@@ -1,4 +1,4 @@
-package com.example.kafka_streams_examples;
+package com.example.kafka_streams_examples.util;
 
 public interface KafkaConstants {
     public static final String KAFKA_BROKERS = "localhost:9092";

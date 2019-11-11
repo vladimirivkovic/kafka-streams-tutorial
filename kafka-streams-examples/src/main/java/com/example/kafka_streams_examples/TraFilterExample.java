@@ -8,6 +8,9 @@ import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.ValueMapper;
 
+import com.example.kafka_streams_examples.util.KafkaConstants;
+import com.example.kafka_streams_examples.util.KafkaStreamsUtil;
+
 public class TraFilterExample {
 	public static void main(String[] args) {
 		final Properties streamsConfiguration = KafkaStreamsUtil.getStreamsConfiguration("tra-filter");
