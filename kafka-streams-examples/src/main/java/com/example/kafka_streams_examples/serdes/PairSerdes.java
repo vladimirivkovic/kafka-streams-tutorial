@@ -1,4 +1,4 @@
-package com.example.kafka_streams_example.serdes;
+package com.example.kafka_streams_examples.serdes;
 
 import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.kafka.common.serialization.Serde;

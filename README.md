@@ -13,6 +13,7 @@ Step 1 and 2 of the official [Kafka Quickstart](https://kafka.apache.org/quickst
 ## Step 2 - Start Kafka Producer
 ```sh
 $ cd kafka-topic-producer
+$ mvn clean install
 $ mvn exec:java -Dexec.mainClass="com.example.kafka_topic_producer.App"
 ```
 
@@ -21,6 +22,7 @@ Dataset used for generating a stream of records can be found on [Kaggle](https:/
 ## Step 3 - Start Stream Processing App
 ```sh
 $ cd kafka-streams-examples
+$ mvn clean install
 $ mvn exec:java -Dexec.mainClass="com.example.kafka_streams_examples.<ExampleName>"
 ```
 

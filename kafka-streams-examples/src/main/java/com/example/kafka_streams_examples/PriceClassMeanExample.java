@@ -15,7 +15,7 @@ import org.apache.kafka.streams.kstream.Materialized;
 import org.apache.kafka.streams.kstream.Produced;
 import org.apache.kafka.streams.kstream.ValueMapper;
 
-import com.example.kafka_streams_example.serdes.PairSerdes;
+import com.example.kafka_streams_examples.serdes.PairSerdes;
 import com.example.kafka_streams_examples.util.KafkaConstants;
 import com.example.kafka_streams_examples.util.KafkaStreamsUtil;
 import com.example.kafka_streams_examples.util.Pair;

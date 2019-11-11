@@ -1,4 +1,4 @@
-package com.example.kafka_streams_example.serdes;
+package com.example.kafka_streams_examples.serdes;
 
 import java.util.Map;
 
